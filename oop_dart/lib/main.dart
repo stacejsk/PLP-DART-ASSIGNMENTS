@@ -1,4 +1,3 @@
-
 class Student {
   String name;
   int age;
@@ -13,8 +12,6 @@ class Student {
     print('Grade Level: $gradeLevel');
   }
 }
-
-
 class Teacher {
   String name;
   int age;
@@ -43,7 +40,6 @@ class School {
 }
 
 void main() {
-
   var school = School();
   school.createAndPrintInfo();
 }
